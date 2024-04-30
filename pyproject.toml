@@ -2,16 +2,19 @@
 name = "price-elasticity-prediction"
 version = "0.1.0"
 description = ""
-authors = ["Danillo Cordeiro"]
+authors = ["dbcordeiro <dbcordeiro@sefaz.al.gov.br>"]
 readme = "README.md"
 packages = [{include = "price_elasticity_prediction"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-numpy = "^1.26.4"
-pandas = "^2.2.2"
-matplotlib = "^3.8.4"
-
+numpy = "1.26.4"
+scipy = "1.13.0"
+pandas = "2.2.2"
+streamlit = "1.32.0"
+urllib3 = "1.26.16"
+statsmodels = "0.14.0"
+platformdirs = "^4.2.1"
 
 [build-system]
 requires = ["poetry-core"]
