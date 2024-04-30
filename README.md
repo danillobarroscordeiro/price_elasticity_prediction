@@ -1,4 +1,4 @@
-# Respiratory Classification
+# Laptop Price Elasticity
 ![](/figures/images.jpg)
 
 ## 1. Business Problem
